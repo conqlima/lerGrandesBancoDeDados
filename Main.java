@@ -36,13 +36,6 @@ public class Main {
 	String line = "";
 	String cvsSplitBy = ",";
 
-	private DateFormat format = new SimpleDateFormat("yyy-MM-dd");
-
-	/*
-	 * public boolean existeNaLista(List<String> lista, String palavra) { for
-	 * (String c : lista) { if (c.equals(palavra)) return true; } return false; }
-	 */
-
 	// Quantas nacionalidades (coluna `nationality`) diferentes existem no arquivo?
 	public int q1() {
 		List<String> lista = new ArrayList<>();
